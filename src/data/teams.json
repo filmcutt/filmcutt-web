@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"name": "Sawmitra Saha",
+		"role": "Chief Marketing Officer (CMO)",
+		"img": "/images/teams/swamitro.jpg"
+	},
+	{
+		"id": 4,
+		"name": "Shadman Khan Siam",
+		"role": "Founder and CEO",
+		"img": "/images/teams/siam.jpg"
+	},
+	{
+		"id": 3,
+		"name": "Rafil Khan",
+		"role": "Motion Designer",
+		"img": "/images/teams/rafil.png"
+	}
+]

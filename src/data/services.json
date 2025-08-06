@@ -1,0 +1,47 @@
+[
+	{
+		"id": 1,
+		"name": "Vertical Video Editing",
+		"description": "Editing videos in a vertical format suitable for social media platforms.",
+		"category": "Video Editing",
+		"price": 100.0,
+		"currency": "USD",
+		"duration": "2 days"
+	},
+	{
+		"id": 2,
+		"name": "Horizontal Video Editing",
+		"description": "Editing videos in a horizontal format for platforms like YouTube.",
+		"category": "Video Editing",
+		"price": 120.0,
+		"currency": "USD",
+		"duration": "3 days"
+	},
+	{
+		"id": 3,
+		"name": "Business Ads",
+		"description": "Creating and editing business advertisements for various platforms.",
+		"category": "Advertising",
+		"price": 150.0,
+		"currency": "USD",
+		"duration": "4 days"
+	},
+	{
+		"id": 4,
+		"name": "2D Animation",
+		"description": "Creating 2D animations for various purposes including advertisements and storytelling.",
+		"category": "Animation",
+		"price": 200.0,
+		"currency": "USD",
+		"duration": "5 days"
+	},
+	{
+		"id": 5,
+		"name": "Youtube Channel Management",
+		"description": "Creating 2D animations for various purposes including advertisements and storytelling.",
+		"category": "Animation",
+		"price": 200.0,
+		"currency": "USD",
+		"duration": "5 days"
+	}
+]

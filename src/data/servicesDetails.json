@@ -1,0 +1,453 @@
+[
+	{
+		"id": 1,
+		"serviceId": 1,
+		"name": "REGULAR",
+		"description": "30 vertical video package with 24-hour turnaround, dedicated video editor & manager, unlimited revisions, and more.",
+		"price": 750,
+		"currencySymbol": "$",
+		"unit": "video",
+		"features": [
+			"30 vertical videos",
+			"24 hour turnaround, Monday to Saturday",
+			"Dedicated video editor & video manager",
+			"Multiple video editors (if needed)",
+			"Real-time team communication",
+			"Unlimited text & captions",
+			"Unlimited motion graphics",
+			"Unlimited stock footage",
+			"Unlimited music & sound effects",
+			"Color correction",
+			"Audio enhancement"
+		],
+		"addons": [
+			{
+				"name": "Thumbnail",
+				"description": "Add-on thumbnail creation",
+				"price": 25,
+				"unit": "thumbnail"
+			}
+		],
+		"options": null
+	},
+	{
+		"id": 2,
+		"serviceId": 1,
+		"name": "VIRAL",
+		"description": "15 vertical video package with 24-hour turnaround, dedicated video editor & manager, unlimited revisions, and more.",
+		"price": 450,
+		"currencySymbol": "$",
+		"unit": "video",
+		"features": [
+			"15 vertical videos",
+			"24 hour turnaround, Monday to Saturday",
+			"Dedicated video editor & video manager",
+			"Multiple video editors (if needed)",
+			"Real-time team communication",
+			"Unlimited text & captions",
+			"Unlimited motion graphics",
+			"Unlimited stock footage",
+			"Unlimited music & sound effects",
+			"Color correction",
+			"Audio enhancement"
+		],
+		"addons": [
+			{
+				"name": "Thumbnail",
+				"description": "Add-on thumbnail creation",
+				"price": 25,
+				"unit": "thumbnail"
+			}
+		],
+		"options": null
+	},
+	{
+		"id": 3,
+		"serviceId": 1,
+		"name": "BRANDMARK",
+		"description": "1 vertical video package with 24-hour turnaround, dedicated video editor & manager, unlimited revisions, and more.",
+		"price": 40,
+		"currencySymbol": "$",
+		"unit": "video",
+		"features": [
+			"1 vertical video",
+			"24 hour turnaround, Monday to Saturday",
+			"Dedicated video editor & video manager",
+			"Multiple video editors (if needed)",
+			"Real-time team communication",
+			"Unlimited text & captions",
+			"Unlimited motion graphics",
+			"Unlimited stock footage",
+			"Unlimited music & sound effects",
+			"Color correction",
+			"Audio enhancement"
+		],
+		"addons": [
+			{
+				"name": "Thumbnail",
+				"description": "Add-on thumbnail creation",
+				"price": 25,
+				"unit": "thumbnail"
+			}
+		],
+		"options": null
+	},
+	{
+		"id": 4,
+		"serviceId": 2,
+		"name": "REGULAR",
+		"description": "8 horizontal video package with 48-hour turnaround, dedicated video editor & manager, unlimited revisions, and more.",
+		"price": 240,
+		"currencySymbol": "$",
+		"unit": "video",
+		"features": [
+			"8 horizontal videos",
+			"48 hour turnaround, Monday to Saturday",
+			"Dedicated video editor & video manager",
+			"Multiple video editors (if needed)",
+			"Real-time team communication",
+			"Unlimited advanced visual effects",
+			"Unlimited motion graphics",
+			"Unlimited stock footage",
+			"Unlimited music & sound effects",
+			"Color correction",
+			"Audio enhancement",
+			"Unlimited final video length"
+		],
+		"addons": [
+			{
+				"name": "30 minutes of raw footage",
+				"description": "Add-on for extra raw footage",
+				"price": 25,
+				"unit": "30 minutes"
+			},
+			{
+				"name": "20 GB of raw footage",
+				"description": "Add-on for extra raw footage",
+				"price": 25,
+				"unit": "20 GB"
+			},
+			{
+				"name": "Full-video burned in captions",
+				"description": "Add-on for captions",
+				"price": 25,
+				"unit": "video"
+			},
+			{
+				"name": "Thumbnail",
+				"description": "Add-on thumbnail creation",
+				"price": 25,
+				"unit": "thumbnail"
+			},
+			{
+				"name": "Vertical reformat",
+				"description": "Add-on for reformatting to vertical",
+				"price": 25,
+				"unit": "video"
+			}
+		],
+		"options": null
+	},
+	{
+		"id": 5,
+		"serviceId": 2,
+		"name": "VIRAL",
+		"description": "4 horizontal video package with 48-hour turnaround, dedicated video editor & manager, unlimited revisions, and more.",
+		"price": 160,
+		"currencySymbol": "$",
+		"unit": "video",
+		"features": [
+			"4 horizontal videos",
+			"48 hour turnaround, Monday to Saturday",
+			"Dedicated video editor & video manager",
+			"Multiple video editors (if needed)",
+			"Real-time team communication",
+			"Unlimited advanced visual effects",
+			"Unlimited motion graphics",
+			"Unlimited stock footage",
+			"Unlimited music & sound effects",
+			"Color correction",
+			"Audio enhancement",
+			"Unlimited final video length"
+		],
+		"addons": [
+			{
+				"name": "30 minutes of raw footage",
+				"description": "Add-on for extra raw footage",
+				"price": 25,
+				"unit": "30 minutes"
+			},
+			{
+				"name": "20 GB of raw footage",
+				"description": "Add-on for extra raw footage",
+				"price": 25,
+				"unit": "20 GB"
+			},
+			{
+				"name": "Full-video burned in captions",
+				"description": "Add-on for captions",
+				"price": 25,
+				"unit": "video"
+			},
+			{
+				"name": "Thumbnail",
+				"description": "Add-on thumbnail creation",
+				"price": 25,
+				"unit": "thumbnail"
+			},
+			{
+				"name": "Vertical reformat",
+				"description": "Add-on for reformatting to vertical",
+				"price": 25,
+				"unit": "video"
+			}
+		],
+		"options": null
+	},
+	{
+		"id": 6,
+		"serviceId": 2,
+		"name": "BRANDMARK",
+		"description": "1 horizontal video package with 48-hour turnaround, dedicated video editor & manager, unlimited revisions, and more.",
+		"price": 150,
+		"currencySymbol": "$",
+		"unit": "video",
+		"features": [
+			"1 horizontal video",
+			"48 hour turnaround, Monday to Saturday",
+			"Dedicated video editor & video manager",
+			"Multiple video editors (if needed)",
+			"Real-time team communication",
+			"Unlimited advanced visual effects",
+			"Unlimited motion graphics",
+			"Unlimited stock footage",
+			"Unlimited music & sound effects",
+			"Color correction",
+			"Audio enhancement",
+			"Unlimited final video length"
+		],
+		"addons": [
+			{
+				"name": "30 minutes of raw footage",
+				"description": "Add-on for extra raw footage",
+				"price": 25,
+				"unit": "30 minutes"
+			},
+			{
+				"name": "20 GB of raw footage",
+				"description": "Add-on for extra raw footage",
+				"price": 25,
+				"unit": "20 GB"
+			},
+			{
+				"name": "Full-video burned in captions",
+				"description": "Add-on for captions",
+				"price": 25,
+				"unit": "video"
+			},
+			{
+				"name": "Thumbnail",
+				"description": "Add-on thumbnail creation",
+				"price": 25,
+				"unit": "thumbnail"
+			},
+			{
+				"name": "Vertical reformat",
+				"description": "Add-on for reformatting to vertical",
+				"price": 25,
+				"unit": "video"
+			}
+		],
+		"options": null
+	},
+	{
+		"id": 7,
+		"serviceId": 3,
+		"name": "BASIC",
+		"description": "45 seconds of video and voice-over for your brand.",
+		"price": 150,
+		"currencySymbol": "$",
+		"unit": "video",
+		"features": [
+			"Video editing",
+			"Script writing",
+			"45 seconds running time",
+			"1 length variation",
+			"1 size orientation",
+			"Product imagery",
+			"Voice over recording",
+			"7 Days Delivery",
+			"Unlimited Revisions"
+		],
+		"addons": null,
+		"options": null
+	},
+	{
+		"id": 8,
+		"serviceId": 3,
+		"name": "STANDARD",
+		"description": "45 seconds of video and voice-over with additional features.",
+		"price": 200,
+		"currencySymbol": "$",
+		"unit": "video",
+		"features": [
+			"Video editing",
+			"Script writing",
+			"45 seconds running time",
+			"1 length variation",
+			"1 size orientation",
+			"Product imagery",
+			"Voice over recording",
+			"7 Days Delivery",
+			"Unlimited Revisions"
+		],
+		"addons": null,
+		"options": null
+	},
+	{
+		"id": 9,
+		"serviceId": 3,
+		"name": "PREMIUM",
+		"description": "60 seconds of video and voice-over with extended features.",
+		"price": 250,
+		"currencySymbol": "$",
+		"unit": "video",
+		"features": [
+			"Video editing",
+			"Script writing",
+			"60 seconds running time",
+			"1 length variation",
+			"2 size orientation",
+			"Product imagery",
+			"Voice over recording",
+			"7 Days Delivery",
+			"Unlimited Revisions"
+		],
+		"addons": null,
+		"options": null
+	},
+	{
+		"id": 10,
+		"serviceId": 4,
+		"name": "START",
+		"description": "Kickstart your SaaS journey with an engaging SaaS explainer video.",
+		"price": 200,
+		"currencySymbol": "$",
+		"unit": "Project",
+		"features": [
+			"Runtime: Up to 2 minutes",
+			"Level of animation: Basic",
+			"Typography",
+			"UI animation",
+			"Non UI elements",
+			"2D animation",
+			"Storyboard",
+			"Storyboard revision: 1",
+			"Voiceover: Synthetic",
+			"Voiceover accent: Global",
+			"Voiceover number: 1",
+			"Royalty free music and SFX",
+			"Final output: MP4",
+			"Video quality: Full HD",
+			"Aspect ratio: 16:9"
+		],
+		"addons": null,
+		"options": null
+	},
+	{
+		"id": 11,
+		"serviceId": 4,
+		"name": "BUILD",
+		"description": "Build credibility with an informative SaaS explainer video.",
+		"price": 500,
+		"currencySymbol": "$",
+		"unit": "Project",
+		"features": [
+			"Runtime: Up to 5 minutes",
+			"Level of animation: Expert",
+			"Typography",
+			"UI animation",
+			"Non UI elements",
+			"2D animation",
+			"Script",
+			"Script revisions: 1",
+			"Storyboard",
+			"Storyboard revision: 2",
+			"Voiceover: Human",
+			"Voiceover accent: Global",
+			"Voiceover number: 1",
+			"Subtitles",
+			"Royalty free music and SFX",
+			"Final output: MP4",
+			"Video quality: Full HD",
+			"Aspect ratio: 16:9 and 9:16"
+		],
+		"addons": null,
+		"options": null
+	},
+	{
+		"id": 12,
+		"serviceId": 4,
+		"name": "GROW",
+		"description": "Fuel your SaaS growth with a dynamic SaaS explainer video.",
+		"price": 800,
+		"currencySymbol": "$",
+		"unit": "Project",
+		"features": [
+			"Runtime: Up to 10 minutes",
+			"Level of animation: Advanced",
+			"Typography",
+			"UI animation",
+			"Non UI elements",
+			"2D and 3D animation",
+			"Script",
+			"Script revisions: 1",
+			"Storyboard",
+			"Storyboard revision: 2",
+			"Voiceover: Human",
+			"Voiceover accent: Global",
+			"Voiceover number: 2",
+			"Subtitles",
+			"Royalty free music and SFX",
+			"Final output: MP4",
+			"Video quality: Full HD 1920x1080p and 1080x1080p",
+			"Aspect ratio: All Social media Aspect ratio",
+			"Source files"
+		],
+		"addons": null,
+		"options": null
+	},
+
+	{
+		"id": 15,
+		"serviceId": 5,
+		"name": "MONTHLY",
+		"description": "Month-to-month subscription.",
+		"price": 970,
+		"currencySymbol": "$",
+		"unit": "monthly",
+		"features": [
+			"Dedicated YouTube channel manager",
+			"Real-time team communication",
+			"YouTube uploads & playlists upkeep",
+			"Video SEO (titles, descriptions, tags, etc.)",
+			"Community engagement & comments",
+			"Community tab posts (multiple per week)",
+			"Keyword research and trends reports",
+			"Channel analytics reports",
+			"Copyright maintenance (remove stolen videos)",
+			"YouTube Channel setup & audit (if needed)",
+			"Free vertical reformat with every horizontal video order",
+			"Free thumbnail with every horizontal video order",
+			"14 day free trial"
+		],
+		"addons": null,
+		"options": {
+			"yearly": {
+				"price": 250,
+				"currencySymbol": "$",
+				"unit": "yearly"
+			}
+		}
+	}
+]

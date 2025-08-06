@@ -1,0 +1,50 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+  relationMode = "prisma"
+}
+
+model User {
+  id      String   @id @map("_id")
+  email   String   @unique
+  name    String?
+}
+
+
+model Subscription{
+  id String @id @default(uuid()) @map("_id")
+  email String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Contact {
+  id String @id @default(uuid()) @map("_id")
+  name String
+  email String
+  message String
+  projectType String
+  phone String 
+  knowAboutUs String
+  country String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Purchase {
+  id String @id @default(uuid()) @map("_id")
+  name String
+  contact String
+  projectType String
+  projectName String
+  projectCategory String
+  details String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

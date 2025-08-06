@@ -1,0 +1,17 @@
+[
+	{
+		"platform": "Facebook",
+		"url": "https://www.facebook.com/profile.php?id=61563787405154&mibextid=ZbWKwL",
+		"icon": "fa6-brands:facebook"
+	},
+	{
+		"platform": "LinkedIn",
+		"url": "https://www.linkedin.com/company/filmcutt22/",
+		"icon": "fa6-brands:linkedin-in"
+	},
+	{
+		"platform": "Instagram",
+		"url": "https://www.instagram.com/filmcutt4",
+		"icon": "fa6-brands:instagram"
+	}
+]
