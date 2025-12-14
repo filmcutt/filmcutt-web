@@ -5,8 +5,7 @@ import Div from '../../app/ui/Div';
 import Hero3 from '../../app/ui/Hero/Hero3';
 import LogoList from '../../app/ui/LogoList';
 import MovingText from '../../app/ui/MovingText';
-import Portfolio2 from '../../app/ui/Portfolio/Portfolio2';
-import Portfolio3 from '../../app/ui/Portfolio/Portfolio3';
+
 import SectionHeading from '../../app/ui/SectionHeading';
 import TestimonialSlider from '../../app/ui/Slider/TestimonialSlider';
 import Spacing from '../../app/ui/Spacing';
