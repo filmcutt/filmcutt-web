@@ -1,20 +1,20 @@
 [
 	{
 		"id": 1,
-		"name": "Sawmitra Saha",
-		"role": "Chief Marketing Officer (CMO)",
-		"img": "/images/teams/swamitro.jpg"
+		"name": "Rabeya khatun",
+		"role": "Graphics Designer",
+		"img": "/images/teams/URMI.jpg"
 	},
 	{
 		"id": 4,
-		"name": "Shadman Khan Siam",
+		"name": "Md Siam khan",
 		"role": "Founder and CEO",
 		"img": "/images/teams/siam.jpg"
 	},
 	{
 		"id": 3,
-		"name": "Rafil Khan",
-		"role": "Motion Designer",
-		"img": "/images/teams/rafil.png"
+		"name": "Ismail Hossain Ridoy ",
+		"role": "Video editor",
+		"img": "/images/teams/RIDOY POSTER.jpg"
 	}
 ]

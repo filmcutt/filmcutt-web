@@ -322,7 +322,7 @@ export default function Header({ variant }) {
 									<Button
 										target="_blank"
 										variant="filled"
-										btnText="calendly"
+										btnText="Book A Call"
 										btnLink="https://calendly.com/filmcutt4-ofy0"
 										className="h-10 rounded-sm text-sm"
 										icon={<Icon icon="grommet-icons:schedule" />}

@@ -85,6 +85,8 @@
     font-size: 18px;
     line-height: 1.9em;
     color: $primary;
+    margin-top: 15px;
+    margin-left: 35%;
   }
   .cs-hero_info {
     display: flex;
@@ -144,9 +146,10 @@
   width: 20px;
   border-radius: 10px;
   border: 2px solid #fff;
-  bottom: 25%;
-  left: 50%;
+  bottom: 18%;
+  left: 47%;
   margin-left: -10px;
+  
   color: transparent;
   &:hover {
     color: transparent;
