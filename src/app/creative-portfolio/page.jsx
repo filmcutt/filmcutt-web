@@ -1,157 +1,83 @@
 'use client';
-import CaseStudy from '../../app/ui/CaseStudy';
-import Cta from '../../app/ui/Cta';
+
+import dynamic from 'next/dynamic';
 import Div from '../../app/ui/Div';
-import Hero3 from '../../app/ui/Hero/Hero3';
-import LogoList from '../../app/ui/LogoList';
-import MovingText from '../../app/ui/MovingText';
-import Portfolio2 from '../../app/ui/Portfolio/Portfolio2';
-import Portfolio3 from '../../app/ui/Portfolio/Portfolio3';
-import SectionHeading from '../../app/ui/SectionHeading';
-import TestimonialSlider from '../../app/ui/Slider/TestimonialSlider';
 import Spacing from '../../app/ui/Spacing';
 
+// Dynamically import all components that might break SSR
+const Hero3 = dynamic(() => import('../../app/ui/Hero/Hero3'), { ssr: false });
+const Portfolio2 = dynamic(() => import('../../app/ui/Portfolio/Portfolio2'), { ssr: false });
+const Portfolio3 = dynamic(() => import('../../app/ui/Portfolio/Portfolio3'), { ssr: false });
+const CaseStudy = dynamic(() => import('../../app/ui/CaseStudy'), { ssr: false });
+const TestimonialSlider = dynamic(() => import('../../app/ui/Slider/TestimonialSlider'), { ssr: false });
+const MovingText = dynamic(() => import('../../app/ui/MovingText'), { ssr: false });
+const LogoList = dynamic(() => import('../../app/ui/LogoList'), { ssr: false });
+const Cta = dynamic(() => import('../../app/ui/Cta'), { ssr: false });
+
 const heroSocialLinks = [
-	{
-		name: 'Behance',
-		links: '/',
-	},
-	{
-		name: 'Twitter',
-		links: '/',
-	},
+  { name: 'Behance', links: '/' },
+  { name: 'Twitter', links: '/' },
 ];
+
 const portfolioData = [
-	{
-		title: 'Winery eCommerce website design & development',
-		subtitle: 'Project 01',
-		btnText: 'See Details',
-		btnLink: '/portfolio/portfolio-details',
-		imageUrl: '/images/portfolio_35.jpeg',
-		category: 'Web Development',
-	},
-	{
-		title: 'Euro corporate agency for healthy environment',
-		subtitle: 'Project 02',
-		btnText: 'See Details',
-		btnLink: '/portfolio/portfolio-details',
-		imageUrl: '/images/portfolio_36.jpeg',
-		category: 'Branding',
-	},
-	{
-		title: 'Powerful admin dashboard design',
-		subtitle: 'Project 03',
-		btnText: 'See Details',
-		btnLink: '/portfolio/portfolio-details',
-		imageUrl: '/images/portfolio_37.jpeg',
-		category: 'UI Design',
-	},
-	{
-		title: 'Crypto financial trading apps for hedge fund',
-		subtitle: 'Project 04',
-		btnText: 'See Details',
-		btnLink: '/portfolio/portfolio-details',
-		imageUrl: '/images/portfolio_38.jpeg',
-		category: 'Apps Design',
-	},
+  { title: 'Winery eCommerce website design & development', subtitle: 'Project 01', btnText: 'See Details', btnLink: '/portfolio/portfolio-details', imageUrl: '/images/portfolio_35.jpeg', category: 'Web Development' },
+  { title: 'Euro corporate agency for healthy environment', subtitle: 'Project 02', btnText: 'See Details', btnLink: '/portfolio/portfolio-details', imageUrl: '/images/portfolio_36.jpeg', category: 'Branding' },
+  { title: 'Powerful admin dashboard design', subtitle: 'Project 03', btnText: 'See Details', btnLink: '/portfolio/portfolio-details', imageUrl: '/images/portfolio_37.jpeg', category: 'UI Design' },
+  { title: 'Crypto financial trading apps for hedge fund', subtitle: 'Project 04', btnText: 'See Details', btnLink: '/portfolio/portfolio-details', imageUrl: '/images/portfolio_38.jpeg', category: 'Apps Design' },
 ];
 
 export default function CreativePortfolioHome() {
-	return (
-		<>
-			{/* Start Hero Section */}
-			<Hero3
-				title="Arino Creative <br />Portfolio"
-				btnLink="contact"
-				btnText={`Let's talk`}
-				socialLinksHeading="Follow Us"
-				heroSocialLinks={heroSocialLinks}
-				bgImageUrl="/images/hero_bg_4.jpeg"
-			/>
-			{/* End Hero Section */}
+  return (
+    <>
+      {/* Hero Section */}
+      <Hero3
+        title="Arino Creative <br />Portfolio"
+        btnLink="contact"
+        btnText={`Let's talk`}
+        socialLinksHeading="Follow Us"
+        heroSocialLinks={heroSocialLinks}
+        bgImageUrl="/images/hero_bg_4.jpeg"
+      />
 
-			{/* Start Portfolio Section */}
-			<Spacing lg="150" md="80" />
-			{portfolioData.map((item, index) =>
-				index % 2 === 0 ? (
-					<Div key={index}>
-						<Portfolio2
-							title={item.title}
-							subtitle={item.subtitle}
-							btnText={item.btnText}
-							btnLink={item.btnLink}
-							imageUrl={item.imageUrl}
-							category={item.category}
-						/>
-						<Spacing lg="100" md="70" />
-					</Div>
-				) : (
-					<Div key={index}>
-						<Portfolio3
-							title={item.title}
-							subtitle={item.subtitle}
-							btnText={item.btnText}
-							btnLink={item.btnLink}
-							imageUrl={item.imageUrl}
-							category={item.category}
-						/>
-						<Spacing lg="100" md="70" />
-					</Div>
-				)
-			)}
-			{/* End Portfolio Section */}
+      {/* Portfolio Section */}
+      <Spacing lg="150" md="80" />
+      {portfolioData.map((item, index) => (
+        <Div key={index}>
+          {index % 2 === 0 ? (
+            <Portfolio2 {...item} />
+          ) : (
+            <Portfolio3 {...item} />
+          )}
+          <Spacing lg="100" md="70" />
+        </Div>
+      ))}
 
-			{/* Start Case Study Section */}
-			<Spacing lg="45" md="10" />
-			<Div className="container">
-				<SectionHeading
-					title="Featured case study"
-					subtitle="Case Study"
-					variant="cs-style1 text-center"
-				/>
-				<Spacing lg="90" md="45" />
-			</Div>
-			<CaseStudy
-				title="Analysis lead <br /> more efficiently"
-				bgUrl="/images/case_study_2.jpeg"
-				href="/case-study/case-study-details"
-				variant="cs-style2"
-			/>
-			<CaseStudy
-				title="Ubar food app <br /> case study"
-				bgUrl="/images/case_study_1.jpeg"
-				href="/case-study/case-study-details"
-			/>
-			<Spacing lg="150" md="80" />
-			{/* End Case Study Section */}
+      {/* Case Study Section */}
+      <Spacing lg="45" md="10" />
+      <Div className="container">
+        <CaseStudy title="Analysis lead <br /> more efficiently" bgUrl="/images/case_study_2.jpeg" href="/case-study/case-study-details" variant="cs-style2" />
+        <CaseStudy title="Ubar food app <br /> case study" bgUrl="/images/case_study_1.jpeg" href="/case-study/case-study-details" />
+      </Div>
+      <Spacing lg="150" md="80" />
 
-			{/* Start Testimonial Section */}
-			<TestimonialSlider />
-			{/* End Testimonial Section */}
+      {/* Testimonial Section */}
+      <TestimonialSlider />
 
-			{/* Start MovingText Section */}
-			<Spacing lg="125" md="70" />
-			<MovingText text="Our reputed world wide partners" />
-			<Spacing lg="105" md="70" />
-			{/* End MovingText Section */}
+      {/* MovingText Section */}
+      <Spacing lg="125" md="70" />
+      <MovingText text="Our reputed world wide partners" />
+      <Spacing lg="105" md="70" />
 
-			{/* Start LogoList Section */}
-			<Div className="container">
-				<LogoList />
-			</Div>
-			<Spacing lg="150" md="80" />
-			{/* End LogoList Section */}
+      {/* LogoList Section */}
+      <Div className="container">
+        <LogoList />
+      </Div>
+      <Spacing lg="150" md="80" />
 
-			{/* Start CTA Section */}
-			<Div className="container">
-				<Cta
-					title="Let’s disscuse make <br />something <i>cool</i> together"
-					btnText="Apply For Meeting"
-					btnLink="/contact"
-					bgSrc="/images/cta_bg_3.jpeg"
-				/>
-			</Div>
-			{/* End CTA Section */}
-		</>
-	);
+      {/* CTA Section */}
+      <Div className="container">
+        <Cta title="Let’s disscuse make <br />something <i>cool</i> together" btnText="Apply For Meeting" btnLink="/contact" bgSrc="/images/cta_bg_3.jpeg" />
+      </Div>
+    </>
+  );
 }
