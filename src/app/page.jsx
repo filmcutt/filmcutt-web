@@ -108,7 +108,7 @@ export default function Home() {
   socialLinksHeading="Follow Us"
   heroSocialLinks={heroSocialLinks}
   bgImageUrl="/images/hero_bg.jpeg"
-  videoSrc="https://youtu.be/tffyFRr_Z6U"
+  videoSrc="https://youtu.be/Xk5XUQLy7_I?si=6bLGFurDM0Cutiwn"
 >
         {/* Stylish inline-css video frame RIGHT UNDER the title */}
         <div style={videoOuterWrap}>
@@ -135,7 +135,7 @@ export default function Home() {
             <div style={ratioBox}>
               <iframe
                 style={iframeStyle}
-                src="https://www.youtube.com/embed/Xk5XUQLy7_I?si=FxurpX_Uu3fMjgls"
+                src="https://youtu.be/Xk5XUQLy7_I?si=6bLGFurDM0Cutiwn"
                 title="Hero Intro Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
