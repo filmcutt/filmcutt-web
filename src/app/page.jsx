@@ -135,11 +135,12 @@ export default function Home() {
             <div style={ratioBox}>
               <iframe
                 style={iframeStyle}
-                src="https://youtu.be/Xk5XUQLy7_I"
+                src="https://www.youtube.com/embed/Xk5XUQLy7_I?si=FxurpX_Uu3fMjgls"
                 title="Hero Intro Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               />
+				
             </div>
           </div>
         </div>
